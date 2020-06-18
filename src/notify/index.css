@@ -1,0 +1,32 @@
+.vant-notify {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  overflow: hidden;
+  width: 100%;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transform: translateY(-100%);
+  transition: transform .2s linear;
+}
+.vant-notify-primary {
+background-color: #1989fa;
+}
+
+.vant-notify-danger {
+background-color: #ee0a24;
+}
+
+.vant-notify-success {
+background-color: #07c160;
+}
+
+.vant-notify-warning {
+background-color: #ff976a;
+}
